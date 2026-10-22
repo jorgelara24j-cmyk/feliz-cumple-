@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💑 Más de Nosotros</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Georgia', serif; }
+        body {
+            background: linear-gradient(135deg, #fde2e8, #f8e8f0, #ffeef2);
+            min-height: 100vh;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #a8466a;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+        .subtitulo {
+            color: #885e6e;
+            font-size: 1.1em;
+            margin-bottom: 35px;
+        }
+        .contenedor-fotos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            max-width: 900px;
+            margin: 0 auto 40px;
+        }
+        .foto {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        .foto img {
+            width: 100%;
+            height: auto;
+			max-height: 250px;
+            object-fit: contain;
+            border-radius: 4px;
+        }
+        .foto p {
+            color: #7a5464;
+            margin-top: 12px;
+            font-style: italic;
+        }
+        .boton {
+            display: inline-block;
+            background: linear-gradient(135deg, #d4688c, #c05578);
+            color: white;
+            padding: 14px 35px;
+            font-size: 1.1em;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(192, 85, 120, 0.3);
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+        .boton:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body>
+    <h2>💑 Momentos especiales 💑</h2>
+    <p class="subtitulo">Gracias por crear tantos recuerdos conmigo 🌸</p>
+
+    <div class="contenedor-fotos">
+        <div class="foto">
+            <img src="foto5.JPEG" alt="Recuerdo">
+            <p> Un día inolvidable que siempre recorldare 🥺❤️</p>
+        </div>
+        <div class="foto">
+            <img src="foto6.JPEG" alt="Recuerdo">
+            <p>Siempre juntos y siempre apoyandome 🥺❤️</p>
+        </div>
+        <div class="foto">
+            <img src="foto7.JPEG" alt="Recuerdo">
+            <p> Mi lugar favorito es a tu lado 🌍❤️</p>
+        </div>
+        <div class="foto">
+            <img src="foto8.JPEG" alt="Recuerdo">
+            <p>Y por ultimo tu ojito bien bonito 🥺❤️</p>
+        </div>
+    </div>
+
+    <a href="pagina2.html" class="boton">⬅️ Anterior</a>
+    <a href="pagina4.html" class="boton">Lo más especial ➡️</a>
+</body>
+</html>
